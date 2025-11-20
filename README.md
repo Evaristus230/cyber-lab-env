@@ -17,3 +17,28 @@ Built for repeatability, learning, and toolchain integration.
    ```bash
    git clone https://github.com/Evaristus230/cyber-lab-env.git
    cd cyber-lab-env
+
+   # 🔐 Self-Contained Pentest Lab
+
+> A Docker-based environment for practicing web app penetration testing — no VMs, no setup headaches.
+
+...
+
+
+## 💡 Why I Built This
+
+> During my cybersecurity training, I struggled with inconsistent lab setups — broken VMs, port conflicts, missing tools.  
+>  
+> This lab solves that by:  
+> - Isolating services in containers  
+> - Pre-configuring ZAP for automation (e.g., CI/CD integration)  
+> - Allowing quick reset with `docker-compose down && up`  
+>  
+> ✅ I use this daily for:  
+> - Testing **gobuster** + **sqlmap** workflows  
+> - Simulating full recon → exploit → report cycles  
+> - Training on modern app vulnerabilities (JWT, SSRF, XXE)
+
+---
+
+
