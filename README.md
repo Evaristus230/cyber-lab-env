@@ -27,14 +27,15 @@ Built for **repeatability**, **learning**, and **toolchain integration**.
 
 docker-compose down
 
-💡 Why I Built This
+# Why I Built This
 During my cybersecurity training, I struggled with inconsistent lab setups — broken VMs, port conflicts, missing tools.
 
 This lab solves that by:
 
 ✅ Isolating services in containers
-✅ Pre-configuring ZAP for automation (e.g., CI/CD integration)
+
 ✅ Allowing quick reset with docker-compose down && up
+
 ✅ I use this daily for: 
 
 Testing gobuster + sqlmap workflows
